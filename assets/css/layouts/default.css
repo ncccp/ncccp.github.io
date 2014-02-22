@@ -1,0 +1,110 @@
+body {
+  width: 75%;
+  margin: 15px auto 0;
+  font-size: 0.875em;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  color: #CF5C3F;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  border-bottom: 1px solid #CF5C3F;
+}
+
+h2 {
+  color: #CF5C3F;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.group {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+}
+
+nav > a:first-child {
+  float: left;
+  display: block;
+  height: 45px;
+  color: #2A4580;
+  font-size: 20px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+nav > a:first-child:hover {
+  border: 0;
+}
+
+nav > a:first-child span {
+  padding-right: 5px;
+  margin-right: 5px;
+  border-right: 2px solid #2A4580;
+  font-size: 30px;
+}
+
+nav ul {
+  float: right;
+  margin: 0;
+  list-style: none;
+}
+
+nav li {
+  float: left;
+  height: 45px;
+  padding: 5px 25px 0;
+  margin-left: 3px;
+  line-height: 40px;
+  border-radius: 5px;
+}
+
+nav li:first-child {
+  margin-left: 0;
+}
+
+nav li a {
+  color: #000;
+}
+
+nav li a:hover,
+nav li a.active {
+  color: #CF5C3F;
+}
+
+#intro p {
+  font-size: 15px;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+}
+
+#intro p:first-child {
+  font-size: 20px;
+}
+
+#intro em {
+  font-style: normal;
+  color: #CF5C3F;
+}
+
+footer {
+  height: 40px;
+  margin: 1.5% 0 1%;
+  padding: 0 4%;
+  line-height: 40px;
+  color: #FFF;
+  background-color: #2A4580;
+  border-radius: 5px;
+  clear: both;
+}
